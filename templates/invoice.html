@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="UTF-8">
+    <title>AL-Hayat Internationals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class ="outer">
+      <form class="form-a" action="/invoice" method="post">
+<table class="table">
+    <input type="text" class="headelem" id="name" name="name" placeholder="Name">
+    <input type="text" class="headelem" id="org" name="org" placeholder="Organiztion">
+    <input type="text" class="headelem" id="addr" name="addr" placeholder="Address">
+    <input type="text" class="headelem" id="phone" name="phone" placeholder="Phone Number">
+    
+  <thead>
+    <tr>
+      <th></th>
+      <th class="thtr">Description</th>
+      <th class="thtr">Quantity</th>
+      <th class="thtr">Unit Price</th>
+      <th class="thtr">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th ></th>
+      <td><input type="text" class="form-control" id="desc1" name ="desc1" ></td>
+      <td><input type="number" class="form-control" id="qnt1" name ="qnt1" ></td>
+      <td><input type="number" class="form-control" id="up1" name="up1"></td>
+       
+    </tr>
+        <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc2" name ="desc2" ></td>
+      <td><input type="number" class="form-control" id="qnt2" name ="qnt2" ></td>
+      <td><input type="number" class="form-control" id="up2" name="up2"></td>
+       
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc3" name="desc3" ></td>
+      <td><input type="number" class="form-control" id="qnt3" name="qnt3" ></td>
+      <td><input type="number" class="form-control" id="up3" name="up3" ></td>
+       
+    </tr>
+
+    <tr>
+
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc4" name="desc4" ></td>
+      <td><input type="number" class="form-control" id="qnt4" name="qnt4"></td>
+      <td><input type="number" class="form-control" id="up4" name="up4"></td>
+       
+    </tr>
+
+    </tr>
+
+    <tr>
+
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc5"name="desc5" ></td>
+      <td><input type="number" class="form-control" id="qnt5" name="qnt5" ></td>
+      <td><input type="number" class="form-control" id="up5" name="up5"></td>
+       
+    </tr>
+
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc6"name="desc6" ></td>
+      <td><input type="number" class="form-control" id="qnt6" name="qnt6" ></td>
+      <td><input type="number" class="form-control" id="up6" name="up6"></td>
+       
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc7"name="desc7" ></td>
+      <td><input type="number" class="form-control" id="qnt7" name="qnt7" ></td>
+      <td><input type="number" class="form-control" id="up7" name="up7"></td>
+       
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc8"name="desc8" ></td>
+      <td><input type="number" class="form-control" id="qnt8" name="qnt8" ></td>
+      <td><input type="number" class="form-control" id="up8" name="up8"></td>
+        
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc9"name="desc9" ></td>
+      <td><input type="number" class="form-control" id="qnt9" name="qnt9" ></td>
+      <td><input type="number" class="form-control" id="up9" name="up9"></td>
+        
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><input type="text" class="form-control" id="desc10"name="desc10" ></td>
+      <td><input type="number" class="form-control" id="qnt10" name="qnt10" ></td>
+      <td><input type="number" class="form-control" id="up10" name="up10"></td>
+        
+    </tr>
+  </tbody>
+  </br>
+    GST:<input type="checkbox" id="myCheck" onclick="myFunction()"></tr>
+    <p>Default value is SST at 13%</p>
+    <input type="number" id="tax-info" name="tax-info">
+</table>
+
+<button  type='submit'>Submit</button>
+</form>
+
+  <table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Organization</th>
+      <th>Phone</th>
+      <th>Description (1)</th>
+      <th>Quantity (1)</th>
+      <th>Unit Price (1)</th>
+      <th>Description (2)</th>
+      <th>Quantity (2)</th>
+      <th>Unit Price (2)</th>
+      <th>Description (3)</th>
+      <th>Quantity (3)</th>
+      <th>Unit Price (3)</th>
+      <th>Description (4)</th>
+      <th>Quantity (4)</th>
+      <th>Unit Price (4)</th>
+      <th>Description (5)</th>
+      <th>Quantity (5)</th>
+      <th>Unit Price (5)</th>
+      <th>Description (6)</th>
+      <th>Quantity (6)</th>
+      <th>Unit Price (6)</th>
+      <th>Description (7)</th>
+      <th>Quantity (7)</th>
+      <th>Unit Price (7)</th>
+      <th>Description (8)</th>
+      <th>Quantity (8)</th>
+      <th>Unit Price (8)</th>
+      <th>Description (9)</th>
+      <th>Quantity (9)</th>
+      <th>Unit Price (9)</th>
+      <th>Description (10)</th>
+      <th>Quantity (10)</th>
+      <th>Unit Price (10)</th>
+    
+    </tr>
+    {% for data in allInv %}
+    <tr>
+      <th >{{loop.counter}}</th>
+      <th >{{data.name}}</th>
+      <th >{{data.org}}</th>
+      <th >{{data.phone}}</th><br>
+      <th >{{data.desc1}}</th>
+      <th >{{data.qnt1}}</th>
+      <th >{{data.up1}}</th>
+      <th >{{data.desc2}}</th>
+      <th >{{data.qnt2}}</th>
+      <th >{{data.up2}}</th><br>
+      <th>{{data.desc3}}</th>
+      <th >{{data.qnt3}}</th>
+      <th >{{data.up3}}</th>
+      <th>{{data.desc4}}</th>
+      <th >{{data.qnt4}}</th>
+      <th >{{data.up4}}</th>
+      <th>{{data.desc5}}</th>
+      <th >{{data.qnt5}}</th>
+      <th >{{data.up5}}</th>
+      <th>{{data.desc6}}</th>
+      <th >{{data.qnt6}}</th>
+      <th >{{data.up6}}</th>
+      <th>{{data.desc7}}</th>
+      <th >{{data.qnt7}}</th>
+      <th >{{data.up7}}</th>
+      <th>{{data.desc8}}</th>
+      <th >{{data.qnt8}}</th>
+      <th >{{data.up8}}</th>
+      <th>{{data.desc9}}</th>
+      <th >{{data.qnt9}}</th>
+      <th >{{data.up9}}</th>
+      <th>{{data.desc10}}</th>
+      <th >{{data.qnt10}}</th>
+      <th >{{data.up10}}</th>
+      <td >Sum Amount: {{data.tot_am}}</td>
+      <td>Percentage: {{data.tot_perc}}</td>
+      <td>Total with Tax: {{data.tot_tot}} </td>
+      <th><a href="/open/{{data.sno}}">Open</a></th>
+      <th><a href="/delete/{{data.sno}}">Delete</a></th>
+      
+    </tr>
+
+    {% endfor %}
+  </thead>
+  
+</table>
+
+</body>
+
+<script>
+document.getElementById("qnt1").defaultValue = 0;
+document.getElementById("qnt2").defaultValue = 0;
+document.getElementById("qnt3").defaultValue = 0;
+document.getElementById("qnt4").defaultValue = 0;
+document.getElementById("qnt5").defaultValue = 0;
+document.getElementById("qnt6").defaultValue = 0;
+document.getElementById("qnt7").defaultValue = 0;
+document.getElementById("qnt8").defaultValue = 0;
+document.getElementById("qnt9").defaultValue = 0;
+document.getElementById("qnt10").defaultValue = 0;
+document.getElementById("up1").defaultValue = 0;
+document.getElementById("up2").defaultValue = 0;
+document.getElementById("up3").defaultValue = 0;
+document.getElementById("up4").defaultValue = 0;
+document.getElementById("up5").defaultValue = 0;
+document.getElementById("up6").defaultValue = 0;
+document.getElementById("up7").defaultValue = 0;
+document.getElementById("up8").defaultValue = 0;
+document.getElementById("up9").defaultValue = 0;
+document.getElementById("up10").defaultValue = 0;
+document.getElementById("tax-info").defaultValue = 13;
+function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    document.getElementById("tax-info").defaultValue = 17;    
+  }
+}
+
+</script>
+</html>
